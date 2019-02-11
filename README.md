@@ -1,12 +1,16 @@
 # learn-github
 My first repository in github
 this is hyperline [hyperlink](www.google.com)
-
+--------------
 to use anchor use # [anchor](#anchor)
 
 ## anchor
+--------------
 Purpose
-
+----------
+to use bullets use *
+* this is a bullet line
+---------
   learn github
   
   Q&A
