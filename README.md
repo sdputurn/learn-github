@@ -6,7 +6,16 @@ to use anchor use # [anchor](#anchor)
 
 ## anchor
 Purpose
-
+----------
+to use bullets use *
+* this is a bullet line
+---------
+---------
+to use code highligting use ``` or ` for inline
+`inline` editing
+```
+multiline editing
+```
   learn github
   
   Q&A
