@@ -1,10 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('groovy script') {
       steps {
         script {
-          sh 'echo from groovy script block'
+          println("from groovy script block")
         }
 
       }
