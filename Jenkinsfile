@@ -10,7 +10,7 @@ pipeline {
       }
     }
 
-    stage('hello  from sh step') {
+    stage('hello') {
       steps {
         sh 'echo "pipeline script works"'
       }
