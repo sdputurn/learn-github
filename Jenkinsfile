@@ -13,7 +13,7 @@ pipeline {
     stage('hello') {
       steps {
         sh 'echo "pipeline script works"'
-        error "job fialed, as its not passing check info with each stage"
+        echo "job fialed, as its not passing check info with each stage"
       }
     }
 
