@@ -6,6 +6,7 @@ pipeline {
         script {
           println("from groovy script block")
         }
+        publishChecks conclusion: 'NEUTRAL', detailsURL: 'https://github.com/sdputurn/learn-github', name: 'hello-world', summary: 'buiild-summary', text: 'b-text', title: 'b-title'
 
       }
     }
