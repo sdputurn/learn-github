@@ -6,6 +6,7 @@ pipeline {
         script {
           println("from groovy script block")
         }
+        echo "SUCCESS-groovy"
 
       }
     }
