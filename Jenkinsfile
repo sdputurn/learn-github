@@ -18,6 +18,12 @@ pipeline {
         error "jenkins not posting steps status"
       }
     }
+    stage('publish-cheks'){
+        steps{
+            publishChecks name: 'example', title: 'Pipeline Check', summary: 'check through pipeline',
+            text: 'publish-checks'
+        }
+    }
 
   }
   environment {
