@@ -14,7 +14,7 @@ pipeline {
     stage('hello') {
       steps {
         sh 'echo "pipeline script works"'
-        sh '1.2.3.....'
+        sh '1.2.3......'
         error "jenkins not posting steps status"
       }
     }
