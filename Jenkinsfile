@@ -14,8 +14,15 @@ pipeline {
     stage('hello') {
       steps {
         sh 'echo "pipeline script works"'
-        error "jenkins not posting steps status"
+        // sh '1.2.3......'
+        // error "jenkins not posting steps status"
       }
+    }
+    stage('publish-cheks'){
+        steps{
+            publishChecks name: 'publish-check', title: 'Pipeline Check', summary: 'check through pipeline',
+            text: 'publish-checks'
+        }
     }
 
   }
