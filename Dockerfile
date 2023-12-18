@@ -1,4 +1,4 @@
 FROM nginx:alpine
-RUN apt install curl
+RUN apt-get install curl
 ENV test=test
 COPY . /app
